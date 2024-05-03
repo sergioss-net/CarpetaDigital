@@ -38,7 +38,7 @@ VALUES
 ('OMAR', 'FIGUEROA', 'HERNANDEZ', 'desarrollo.5@nexen-elog.com', 'OMAR', 'OMAR2023', '2023-10-03', '2023-10-03', CONVERT(TIME, '10:11:00'), 1),
 ('DIEGO ISRAEL', 'HAN', 'ENRIQUEZ', 'gerencia.desarrollo@nexen-elog.com', 'ADMIN', 'ADM2023', '2023-10-03', '2023-10-03', CONVERT(TIME, '14:02:00'), 1),
 ('EDUARDO', 'FLORES', 'LARA', 'leduardo@xtrategas.com', 'EDUF', 'NEXEN2023', '2023-10-16', '2023-10-16', CONVERT(TIME, '16:07:00'), 1),
-('LUIS EDUARDO', 'FLORES', 'LARA', 'leduardo@xtrategas.com', 'LUEDF', 'password', '2023-10-03', '', '', 1),
+('LUIS EDUARDO', 'FLORES', 'LARA', 'leduardo@xtrategas.com', 'LUEDF', '', '2023-10-03', '', '', 1),
 ('LUIS FERNANDO', 'VEGA', 'REYES', 'lf.vega@nexen-eleg.com', 'LUFVR', 'LUFVR2023', '2024-01-31', '2024-01-31', CONVERT(TIME, '12:00:00'), 1),
 ('LILIANA', 'RODRIGUEZ', 'BARROS', 'liliana.rodriguez@xtrategas.com', 'LBR', 'LNEXEN2023', '2023-10-03', '2023-12-04', CONVERT(TIME, '12:00:00'), 1),
 ('Rodolfo', 'San Juan', 'San Juan', 'r.sanjuan@nexen-elog.com', 'RODES', 'NEXEN2023', '2023-10-17', '2023-10-17', CONVERT(TIME, '11:11:00'), 1),
