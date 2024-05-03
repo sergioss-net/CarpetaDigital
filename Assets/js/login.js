@@ -116,3 +116,16 @@ document.addEventListener('DOMContentLoaded', function(){
 		}
 	}
 }, false);
+
+function mostrarPassword() {
+    var cambio = document.getElementById("txtPassword");
+
+    if (cambio.type == "password") {
+        cambio.type = "text";
+        document.getElementById("icono").className = "bi bi-eye";
+    } else {
+        cambio.type = "password";
+        document.getElementById("icono").className = "bi bi-eye-slash";
+    }
+
+}

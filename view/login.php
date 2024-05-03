@@ -17,24 +17,8 @@ if(isset($_SESSION['login'])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
-    function mostrarPassword() {
-        var cambio = document.getElementById("txtPassword");
-
-        if (cambio.type == "password") {
-            cambio.type = "text";
-            document.getElementById("icono").className = "bi bi-eye";
-        } else {
-            cambio.type = "password";
-            document.getElementById("icono").className = "bi bi-eye-slash";
-        }
-
-    }
-    </script>
 </head>
-
 <body>
-
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4">
