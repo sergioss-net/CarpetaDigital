@@ -22,7 +22,7 @@ if(isset($_SESSION['login'])){
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <div class="card my-5">
+                <div class="card_login">
                     <div id="divLoading">
                         <div>
                             <img src="../Assets/img/loading.svg" alt="Loading">
@@ -59,8 +59,6 @@ if(isset($_SESSION['login'])){
                         <div class="mb-3 my-4 text-center">
                             <p>¿Olvidaste tu contraseña?</p>
                             <a href="#">Recuperar Contraseña</a>
-                            <p>¿No tienes cuenta?</p>
-                            <a href="#">Crear cuenta</a>
                         </div>
                         <div class="text-center pt-1 text-muted">
                             Copyrights All Rights Reserved <br>Nexen E-logistics &copy; 2022
