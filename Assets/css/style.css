@@ -1,0 +1,41 @@
+
+
+/* load de pantalla login */
+#divLoading{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(254,254,255, .65);
+	z-index: 9999;
+	display: none;
+}
+#divLoading img{
+	width: 50px;
+	height: 50px;
+}
+#divLoadingNuevo{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(254,254,255, .65);
+	z-index: 9999;
+	display: none;
+}
+#divLoadingNuevo img{
+	width: 50px;
+	height: 50px;
+}
+
+
+.card{
+    margin-top: 150px;
+    border-radius: 50rem;
+}
